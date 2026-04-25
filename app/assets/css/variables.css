@@ -1,0 +1,61 @@
+:root {
+  /* === Brand Colors === */
+  --color-primary: #6abf8a;
+  --color-primary-light: #a8d5b5;
+  --color-primary-lighter: #d4edda;
+  --color-primary-dark: #3a9e6f;
+  --color-primary-hover: #58b07a;
+
+  /* === Neutrals === */
+  --color-white: #ffffff;
+  --color-gray-soft: #f4f7f5;
+  --color-gray-mid: #e2ece7;
+  --color-gray-border: #cdddd5;
+
+  /* === Text === */
+  --color-text: #2d3a35;
+  --color-text-muted: #6b7c75;
+  --color-text-light: #9ab0a8;
+
+  /* === Semantic === */
+  --color-success: #4caf7d;
+  --color-accent: #b5e5c8;
+
+  /* === Typography === */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* === Spacing === */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+  --space-3xl: 8rem;
+
+  /* === Border === */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* === Shadows === */
+  --shadow-sm: 0 2px 8px rgba(42, 80, 60, 0.07);
+  --shadow-md: 0 6px 24px rgba(42, 80, 60, 0.10);
+  --shadow-lg: 0 16px 48px rgba(42, 80, 60, 0.13);
+  --shadow-card: 0 4px 20px rgba(42, 80, 60, 0.09);
+
+  /* === Transitions === */
+  --transition-fast: 0.18s ease;
+  --transition-base: 0.28s ease;
+  --transition-slow: 0.45s ease;
+
+  /* === Z-index === */
+  --z-navbar: 100;
+  --z-modal: 200;
+
+  /* === Section max-width === */
+  --max-width: 1120px;
+  --section-pad-v: 5.5rem;
+}
