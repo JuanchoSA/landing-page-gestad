@@ -16,7 +16,7 @@ const navLinks = [
       <div class="footer__top">
         <div class="footer__brand">
           <div class="footer__logo">
-            <span class="footer__logo-icon">G</span>
+            <img src="~/assets/images/logo-gestad.png" alt="GESTAD Logo" class="footer__logo-icon" />
             <span class="footer__logo-text">GESTAD</span>
           </div>
           <p class="footer__tagline">Control de asistencia docente automatizado con tecnología RFID.</p>
@@ -27,7 +27,7 @@ const navLinks = [
         </nav>
       </div>
       <div class="footer__bottom">
-        <p class="footer__copy">© 2025 GESTAD. Todos los derechos reservados.</p>
+        <p class="footer__copy">© 2026 GESTAD. Todos los derechos reservados.</p>
       </div>
     </div>
   </footer>
@@ -38,7 +38,7 @@ const navLinks = [
 .footer__inner{max-width:var(--max-width);margin:0 auto}
 .footer__top{display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-xl);padding-bottom:var(--space-lg);border-bottom:1px solid rgba(255,255,255,.1)}
 .footer__logo{display:flex;align-items:center;gap:.6rem;margin-bottom:.6rem}
-.footer__logo-icon{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:var(--radius-sm);background:var(--color-primary);color:var(--color-white);font-family:var(--font-heading);font-weight:800;font-size:1rem}
+.footer__logo-icon{width:100px;height:100px;object-fit:contain}
 .footer__logo-text{font-family:var(--font-heading);font-weight:700;font-size:1.15rem}
 .footer__tagline{font-size:.88rem;color:rgba(255,255,255,.55);max-width:300px;line-height:1.6}
 .footer__nav{display:flex;flex-direction:column;gap:.45rem}

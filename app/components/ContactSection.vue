@@ -22,11 +22,11 @@ const handleSubmit = () => {
           <div class="contact__details">
             <div class="contact__detail">
               <span class="contact__detail-icon">📧</span>
-              <span>contacto@gestad.co</span>
+              <span>gestad@gmail.com</span>
             </div>
             <div class="contact__detail">
               <span class="contact__detail-icon">📍</span>
-              <span>Bogotá, Colombia</span>
+              <span>Aguachica, César - Colombia</span>
             </div>
           </div>
         </div>

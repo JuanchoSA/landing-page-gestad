@@ -2,8 +2,7 @@
 const audiences = [
   { icon: '🏫', title: 'Instituciones educativas', desc: 'Colegios e institutos técnicos que necesitan controlar la asistencia de su planta docente de forma precisa.' },
   { icon: '👔', title: 'Coordinadores y directivos', desc: 'Quienes requieren visibilidad en tiempo real sobre puntualidad y ausencias del personal docente.' },
-  { icon: '🖥️', title: 'Administradores de sistemas escolares', desc: 'Encargados de gestionar docentes, horarios y reportes internos de asistencia.' },
-  { icon: '🇨🇴', title: 'Contexto colombiano', desc: 'Valida cédulas colombianas, zona horaria America/Bogota, días hábiles de lunes a sábado.' },
+  { icon: '🖥️', title: 'Administradores de sistemas escolares', desc: 'Encargados de gestionar docentes, horarios y reportes internos de asistencia.' }
 ]
 </script>
 
@@ -25,7 +24,7 @@ const audiences = [
 </template>
 
 <style scoped>
-.audience__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-md);margin-top:var(--space-lg);text-align:left}
+.audience__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-md);margin-top:var(--space-lg);text-align:left}
 .audience-card{background:var(--color-white);border:1px solid var(--color-gray-border);border-radius:var(--radius-md);padding:var(--space-md);transition:all var(--transition-base);box-shadow:var(--shadow-sm)}
 .audience-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);border-color:var(--color-primary-light)}
 .audience-card__icon{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:var(--radius-sm);background:var(--color-primary-lighter);font-size:1.4rem;margin-bottom:.75rem}

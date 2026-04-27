@@ -31,8 +31,8 @@ onMounted(() => {
   <header :class="['navbar', { 'navbar--scrolled': scrolled }]" id="navbar">
     <div class="navbar__inner">
       <a href="#hero" class="navbar__brand" @click="closeMenu">
-        <span class="navbar__logo-icon">G</span>
-        <span class="navbar__logo-text">GESTAD</span>
+        <img src="~/assets/images/logo-gestad.png" alt="GESTAD Logo" class="navbar__logo-icon" />
+        <span class="navbar__logo-text"></span>
       </a>
 
       <button
@@ -99,17 +99,9 @@ onMounted(() => {
 }
 
 .navbar__logo-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: var(--radius-sm);
-  background: var(--color-primary);
-  color: var(--color-white);
-  font-family: var(--font-heading);
-  font-weight: 800;
-  font-size: 1.1rem;
+  width: auto;
+  height: 70px;
+  object-fit: contain;
 }
 
 .navbar__logo-text {

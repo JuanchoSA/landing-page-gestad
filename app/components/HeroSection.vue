@@ -36,7 +36,7 @@
             <span class="hero__card-dot hero__card-dot--green"></span>
             <span class="hero__card-dot hero__card-dot--yellow"></span>
             <span class="hero__card-dot hero__card-dot--red"></span>
-            <span class="hero__card-title-bar">GESTAD — Panel</span>
+            <span class="hero__card-title-bar">GESTAD — Panel de asistencias</span>
           </div>
           <div class="hero__card-body">
             <div class="hero__card-row">
