@@ -27,7 +27,7 @@ const navLinks = [
         </nav>
       </div>
       <div class="footer__bottom">
-        <p class="footer__copy">© 2026 GESTAD. Todos los derechos reservados.</p>
+        <p class="footer__copy">© 2026 GESTAD. Todos los derechos reservados - Equipo GESTAD.</p>
       </div>
     </div>
   </footer>
