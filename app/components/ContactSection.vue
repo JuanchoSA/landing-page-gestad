@@ -22,7 +22,7 @@ const handleSubmit = () => {
           <div class="contact__details">
             <div class="contact__detail">
               <span class="contact__detail-icon">📧</span>
-              <span>gestad@gmail.com</span>
+              <span>equipogestad@gmail.com</span>
             </div>
             <div class="contact__detail">
               <span class="contact__detail-icon">📍</span>
