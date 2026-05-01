@@ -158,6 +158,8 @@ onMounted(() => {
   gap: 5px;
   background: none;
   padding: 4px;
+  position: relative;
+  z-index: 100;
 }
 
 .navbar__toggle span {
@@ -188,7 +190,8 @@ onMounted(() => {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 0;
+    height: 100vh;
+    height: 100dvh;
     width: 280px;
     background: var(--color-white);
     flex-direction: column;
